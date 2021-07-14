@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://nibeon.github.io/pro-linux/sitemap.xml

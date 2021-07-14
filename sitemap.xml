@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://nibeon.github.io/pro-linux/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://nibeon.github.io/pro-linux/</loc>
+</url>
+<url>
+<loc>https://nibeon.github.io/pro-linux/o-distribyutive-sparky-linux/</loc>
+<lastmod>2021-07-11T00:11:34+03:00</lastmod>
+<image:image>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\2/cropped-sparky-baner-tekst4a-2.png</image:loc>
+<image:title><![CDATA[Логотип Sparky Linux]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\2/aptus_1_desktops.png</image:loc>
+<image:title><![CDATA[APTus с выбором рабочих столов]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\2/aptus_2.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\2/aptus_3.png</image:loc>
+<image:title><![CDATA[Страница установки программы в APTus]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\2/mydesktop.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://nibeon.github.io/pro-linux/o-proekte/</loc>
+<lastmod>2021-07-10T18:54:01+03:00</lastmod>
+</url>
+<url>
+<loc>https://nibeon.github.io/pro-linux/o-q4os/</loc>
+<lastmod>2021-07-13T22:42:01+03:00</lastmod>
+<image:image>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\3/banner.jpg</image:loc>
+<image:title><![CDATA[логотип Q4OS]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\3/image11.jpg.png</image:loc>
+<image:title><![CDATA[инсталлятор из-под Windows]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\3/image2.jpg</image:loc>
+<image:title><![CDATA[внешний вид Q4OS]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://nibeon.github.io/pro-linux/trinity-desktop-environment/</loc>
+<lastmod>2021-07-14T00:22:35+03:00</lastmod>
+<image:image>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\4//tde-logo.png</image:loc>
+<image:title><![CDATA[Logo Trinity Desktop]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\4//mydesktop1.png</image:loc>
+<image:title><![CDATA[Центр управления Trinity]]></image:title>
+</image:image>
+</url>
+</urlset>
