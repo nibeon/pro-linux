@@ -5,59 +5,59 @@
 <loc>https://nibeon.github.io/pro-linux/</loc>
 </url>
 <url>
-<loc>https://nibeon.github.io/pro-linux/o-distribyutive-sparky-linux/</loc>
-<lastmod>2021-07-11T00:11:34+03:00</lastmod>
+<loc>https://nibeon.github.io/pro-linux/about-blog.html</loc>
+<lastmod>2022-04-26T17:44:00+03:00</lastmod>
+</url>
+<url>
+<loc>https://nibeon.github.io/pro-linux/about-linux-distributives.html</loc>
+<lastmod>2022-04-27T01:15:14+03:00</lastmod>
+</url>
+<url>
+<loc>https://nibeon.github.io/pro-linux/antix-linux.html</loc>
+<lastmod>2022-04-27T01:16:04+03:00</lastmod>
 <image:image>
-<image:loc>https://nibeon.github.io/pro-linux/media\posts\2/cropped-sparky-baner-tekst4a-2.png</image:loc>
-<image:title><![CDATA[Логотип Sparky Linux]]></image:title>
-</image:image>
-<image:image>
-<image:loc>https://nibeon.github.io/pro-linux/media\posts\2/aptus_1_desktops.png</image:loc>
-<image:title><![CDATA[APTus с выбором рабочих столов]]></image:title>
-</image:image>
-<image:image>
-<image:loc>https://nibeon.github.io/pro-linux/media\posts\2/aptus_2.png</image:loc>
-<image:title><![CDATA[]]></image:title>
-</image:image>
-<image:image>
-<image:loc>https://nibeon.github.io/pro-linux/media\posts\2/aptus_3.png</image:loc>
-<image:title><![CDATA[Страница установки программы в APTus]]></image:title>
-</image:image>
-<image:image>
-<image:loc>https://nibeon.github.io/pro-linux/media\posts\2/mydesktop.png</image:loc>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\7/antix.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://nibeon.github.io/pro-linux/o-proekte/</loc>
-<lastmod>2021-07-10T18:54:01+03:00</lastmod>
-</url>
-<url>
-<loc>https://nibeon.github.io/pro-linux/o-q4os/</loc>
-<lastmod>2021-07-13T22:42:01+03:00</lastmod>
+<loc>https://nibeon.github.io/pro-linux/q4os.html</loc>
+<lastmod>2022-04-27T01:13:52+03:00</lastmod>
 <image:image>
-<image:loc>https://nibeon.github.io/pro-linux/media\posts\3/banner.jpg</image:loc>
-<image:title><![CDATA[логотип Q4OS]]></image:title>
-</image:image>
-<image:image>
-<image:loc>https://nibeon.github.io/pro-linux/media\posts\3/image11.jpg.png</image:loc>
-<image:title><![CDATA[инсталлятор из-под Windows]]></image:title>
-</image:image>
-<image:image>
-<image:loc>https://nibeon.github.io/pro-linux/media\posts\3/image2.jpg</image:loc>
-<image:title><![CDATA[внешний вид Q4OS]]></image:title>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\5/Q4OS_4.8_Gemini-2.png</image:loc>
+<image:title><![CDATA[Q4OS 4.8 (Gemini) running the Trinity Desktop Environment version R14.0.11]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://nibeon.github.io/pro-linux/trinity-desktop-environment/</loc>
-<lastmod>2021-07-14T00:22:35+03:00</lastmod>
+<loc>https://nibeon.github.io/pro-linux/trinity-desktop.html</loc>
+<lastmod>2022-04-27T01:13:13+03:00</lastmod>
 <image:image>
-<image:loc>https://nibeon.github.io/pro-linux/media\posts\4//tde-logo.png</image:loc>
-<image:title><![CDATA[Logo Trinity Desktop]]></image:title>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\6/1280px-Screenshot_of_Trinity_Desktop_Environment_TDE_R14.0.5_Development.png</image:loc>
+<image:title><![CDATA[]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://nibeon.github.io/pro-linux/media\posts\4//mydesktop1.png</image:loc>
-<image:title><![CDATA[Центр управления Trinity]]></image:title>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\6/gallery/tde1-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\6/gallery/tde2-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\6/gallery/tde3-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\6/gallery/tde4-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\6/gallery/tde5-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://nibeon.github.io/pro-linux/media\posts\6/gallery/tde6-thumbnail.png</image:loc>
+<image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
 </urlset>

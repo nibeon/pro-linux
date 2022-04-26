@@ -1,150 +1,191 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Pro Linux</title>
+    <title>pro-linux</title>
     <link href="https://nibeon.github.io/pro-linux/feed.xml" rel="self" />
     <link href="https://nibeon.github.io/pro-linux" />
-    <updated>2021-07-14T00:22:35+03:00</updated>
+    <updated>2022-04-27T01:16:04+03:00</updated>
     <author>
         <name>nibeon</name>
     </author>
     <id>https://nibeon.github.io/pro-linux</id>
 
     <entry>
-        <title>Trinity Desktop Environment</title>
+        <title>AntiX</title>
         <author>
             <name>nibeon</name>
         </author>
-        <link href="https://nibeon.github.io/pro-linux/trinity-desktop-environment/"/>
-        <id>https://nibeon.github.io/pro-linux/trinity-desktop-environment/</id>
-            <category term="Обзоры"/>
-            <category term="Графические среды и оболочки"/>
+        <link href="https://nibeon.github.io/pro-linux/antix-linux.html"/>
+        <id>https://nibeon.github.io/pro-linux/antix-linux.html</id>
+            <category term="distribution"/>
+            <category term="article"/>
+            <category term="Linux"/>
+            <category term="Lightweight"/>
 
-        <updated>2021-07-14T00:22:35+03:00</updated>
+        <updated>2022-04-27T01:16:04+03:00</updated>
             <summary>
                 <![CDATA[
-                     Trinity Desktop Environment (TDE) , графическая среда, которая является форком KDE3, является пожалуй одной из самых легковесных полноценных графических окружений наравне с LXDE и LXQT (оконные менеджеры типа Openbox, IceWM или i3 это все-таки "из другой оперы", хотя на их основе можно сделать полноценную&hellip;
+                    antiX is a Linux distribution based on Debian Stable. It is comparatively lightweight and suitable for older computers, while also providing cutting edge kernel and applications, as well as updates and&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <figure class="post__image"><img loading="lazy"  src="https://nibeon.github.io/pro-linux/media/posts/4//tde-logo.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://nibeon.github.io/pro-linux/media/posts/4//responsive/tde-logo-xs.png 300w ,https://nibeon.github.io/pro-linux/media/posts/4//responsive/tde-logo-sm.png 480w ,https://nibeon.github.io/pro-linux/media/posts/4//responsive/tde-logo-md.png 768w ,https://nibeon.github.io/pro-linux/media/posts/4//responsive/tde-logo-lg.png 1024w ,https://nibeon.github.io/pro-linux/media/posts/4//responsive/tde-logo-xl.png 1360w ,https://nibeon.github.io/pro-linux/media/posts/4//responsive/tde-logo-2xl.png 1600w"  alt="Logo Trinity Desktop" width="125" height="124"></figure>   <a href="https://www.trinitydesktop.org" title="Оффициальный сайт Trinity" target="_blank" rel="noopener noreferrer">Trinity Desktop Environment (TDE)</a> , графическая среда, которая является форком KDE3, является пожалуй одной из самых легковесных полноценных графических окружений наравне с LXDE и LXQT (оконные менеджеры типа Openbox, IceWM или i3 это все-таки "из другой оперы", хотя на их основе можно сделать полноценную рабочую стреду, так например LXDE реализована поверх Openbox). И вместе с тем, как мне кажется TDE одна из недооцененных графических оболочек, так как далеко не каждых дистрибютив линукс имеет в своем арсенале сборку с Trinity, а те, которые имеют - это в основном сборки, предоставляемые сообществом:</p>
+                <p><strong><a href="https://antixlinux.com" target="_blank" rel="noopener noreferrer">antiX</a></strong> is a Linux distribution based on Debian Stable.<sup id="cite_ref-2" class="reference"></sup> It is comparatively lightweight and suitable for older computers, while also providing cutting edge kernel and applications, as well as updates and additions via the apt-get package system and Debian-compatible repositories.<sup id="cite_ref-3" class="reference"></sup> Unlike Debian, antiX is "proudly systemd-free". Since version 19 it comes in two init system flavours: sysVinit and runit.</p>
+<p>antiX comes with default SpaceFM Desktop Environment (DE) built on top of GTK library and IceWM as a Window Manager.<sup id="cite_ref-4" class="reference"></sup></p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://nibeon.github.io/pro-linux/media/posts/7/antix.jpg" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://nibeon.github.io/pro-linux/media/posts/7/responsive/antix-xs.jpg 300w ,https://nibeon.github.io/pro-linux/media/posts/7/responsive/antix-sm.jpg 480w ,https://nibeon.github.io/pro-linux/media/posts/7/responsive/antix-md.jpg 749w ,https://nibeon.github.io/pro-linux/media/posts/7/responsive/antix-xl.jpg 1200w"  alt="" width="1280" height="800"></figure>
+<p>antiX is available for IA-32 and x86-64 architectures, and comes in 4 versions:</p>
 <ul>
-<li><strong>Q4OS</strong> (дистрибютив разрабатываемы одной немецкой фирмой, основан на дебиане). Небольшой обзор которого делал <a href="https://nibeon.github.io/pro-linux/o-q4os/">чуть ранее</a>.</li>
-<li><a href="http://exegnulinux.net/" target="_blank" rel="noopener noreferrer" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">Exe GNU/Linux</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> (основан на Devuan, форке дебиана без systemd). Малоизвестный дистрибютив, разрабатываемый энтузиастами (возможно даже одним человеком), который также идет с Trinity "из коробки".</span></li>
-<li>
-<p><a href="http://www.pclinuxos.com/" target="_blank" rel="noopener noreferrer">PCLinuxOS</a> (rpm-based дистрибютив родом из США). Имеет неофициальные community-сборки с TDE (которые можно найти <a href="http://trinity.mypclinuxos.com/" target="_blank" rel="noopener noreferrer">здесь</a> и  <a href="http://ftp.nluug.nl/pub/os/Linux/distr/pclinuxos/pclinuxos/live-cd/community/" target="_blank" rel="noopener noreferrer">здесь</a>)</p>
-</li>
-<li>Старые версии <strong>ALT Linux Starter Kits</strong></li>
-<li><strong>Slax</strong> (live-дистрибютив мини-линукса на основе Debian)</li>
-<li>Сборка Ubunty с Trinity, которую можно скачать с оффициального сайта TDE</li>
+<li><strong>Full</strong>, which installs a full range of applications (1.4 GB)</li>
+<li><strong>Base</strong>, which allows the user to choose their own application suite (800 MB)</li>
+<li><strong>Core</strong>, no X, cli-installer without encryption, which enables the user to have total control over the install (440 MB)</li>
+<li><strong>net</strong>, no X, cli-installer without encryption,which enables the user to have total control with no desktop environment by default (180 MB)</li>
 </ul>
-<p>Также Trinity доступна в репозитории Sparky Linux, и может быть еще где-то, но... скорее всего для этого нужно будет подключать репозиторий этого окружения, что видимо является одной из причин малой популярности данного кружения. Другой весомой причиной является популярноть KDE Plasma и то, что многие могут посчитать интерфейс Trinity устаревшим. Но, например, для сторонников интерфесов в стиле KDE3 или любителей легковесных оболочек и сред (типа меня) Trinity - то, что доктор прописал.</p>
-<figure class="post__image"><img loading="lazy"  src="https://nibeon.github.io/pro-linux/media/posts/4//mydesktop1.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://nibeon.github.io/pro-linux/media/posts/4//responsive/mydesktop1-xs.png 300w ,https://nibeon.github.io/pro-linux/media/posts/4//responsive/mydesktop1-sm.png 480w ,https://nibeon.github.io/pro-linux/media/posts/4//responsive/mydesktop1-md.png 768w ,https://nibeon.github.io/pro-linux/media/posts/4//responsive/mydesktop1-lg.png 1024w ,https://nibeon.github.io/pro-linux/media/posts/4//responsive/mydesktop1-xl.png 1360w ,https://nibeon.github.io/pro-linux/media/posts/4//responsive/mydesktop1-2xl.png 1600w"  alt="Центр управления Trinity" width="1680" height="1050"></figure>
-<p><em>(Trinity Control Center)</em></p>
-<h2>Приложения</h2>
-<p>Так как Trinity - это форк KDE3, то и приложения в TDE перекочевали из третьих "кед". Но не просто перекочевали, но и дорабатываются под современные ралии (чтобы работало на современном железе,исправляются баги и недостатки, доставшиесы в наследство от KDE3 и т.д.). Полный список приложений для TDE приводится на сайте Trinity Desktop в разделе <a href="https://trinitydesktop.org/applications.php" target="_blank" rel="noopener noreferrer">Trinity Applications</a>. Перечислю некоторые приложения, которые использую: Kate, TDevelop (форк KDevelop для Trinity), Krusader for Trinity (двупанельный файловый менеджер), KOffice ("родственнник" Caligra Suite), KSnapshot (для снятия скриншотов), Kasablanka (ftp-клиент), KStars (планетарий) и некоторые другие.</p>
-<p> </p>
+<p><em><span style="text-decoration: underline;">The most interesting antix features, thanks to which I liked this Linux distribution:</span></em></p>
+<ol>
+<li>lightweight and fast </li>
+<li>several lightweight window managers (IceWM by default, fluxbox, jwm), including one tile manager (herbstluftwm), between which you can switch on the fly </li>
+<li>the ability to use a distribution from a USB flash drive with saving the state of work without installing it on a hard drive </li>
+<li>Suitable to work on old computers and laptops</li>
+</ol>
+<p><em><strong>Interesting fact</strong></em>: The most of releases of the distribution refer to the figures of the anti-fascist movement, which is hinted at by the slogan: <em>Proudly anti-fascist "antiX Magic" in an environment suitable for old and new computers.</em><br><br></p>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>О Q4OS</title>
+        <title>Trinity Desktop</title>
         <author>
             <name>nibeon</name>
         </author>
-        <link href="https://nibeon.github.io/pro-linux/o-q4os/"/>
-        <id>https://nibeon.github.io/pro-linux/o-q4os/</id>
-            <category term="Обзоры"/>
-            <category term="Дистрибютивы"/>
+        <link href="https://nibeon.github.io/pro-linux/trinity-desktop.html"/>
+        <id>https://nibeon.github.io/pro-linux/trinity-desktop.html</id>
+            <category term="article"/>
+            <category term="Linux"/>
+            <category term="Lightweight"/>
+            <category term="Desktop Environment"/>
 
-        <updated>2021-07-13T22:42:01+03:00</updated>
+        <updated>2022-04-27T01:13:13+03:00</updated>
             <summary>
                 <![CDATA[
-                     Q4OS - дистрибютив линукс, онованный на Debian, который идет в двух вариантах сборки: с Trinity Desktop и с KDE Plasma. По сути вариант Q4OS с Trinity Desktop (TDE) является "фишкой" данного дистрибютива, так как лишь несколько дистрибютивов линукса имеют сборки с данной графической средой.
+                    The Trinity Desktop Environment (TDE) is a complete software desktop environment designed for Linux and Unix-like operating systems, intended for computer users preferring a traditional desktop model, and&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <figure class="post__image"><img loading="lazy"  src="https://nibeon.github.io/pro-linux/media/posts/3/banner.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://nibeon.github.io/pro-linux/media/posts/3/responsive/banner-xs.jpg 300w ,https://nibeon.github.io/pro-linux/media/posts/3/responsive/banner-sm.jpg 480w ,https://nibeon.github.io/pro-linux/media/posts/3/responsive/banner-md.jpg 768w ,https://nibeon.github.io/pro-linux/media/posts/3/responsive/banner-lg.jpg 1024w ,https://nibeon.github.io/pro-linux/media/posts/3/responsive/banner-xl.jpg 1360w ,https://nibeon.github.io/pro-linux/media/posts/3/responsive/banner-2xl.jpg 1600w"  alt="логотип Q4OS" width="900" height="200"></figure>
-<p><a href="https://q4os.org/" title="оффициальный сайт Q4OS" target="_blank" rel="noopener noreferrer">Q4OS</a> - дистрибютив линукс, онованный на Debian, который идет в двух вариантах сборки: с Trinity Desktop и с KDE Plasma. По сути вариант Q4OS с Trinity Desktop (TDE) является "фишкой" данного дистрибютива, так как лишь несколько дистрибютивов линукса имеют сборки с данной графической средой. </p>
-<p>Еще одной фишой данного дистрибютива является предоставления exe-установщиа для Windows, который позволяет из-под винды установить Q4OS в качестве второй системы. </p>
-<figure class="post__image"><img loading="lazy"  src="https://nibeon.github.io/pro-linux/media/posts/3/image11.jpg.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://nibeon.github.io/pro-linux/media/posts/3/responsive/image11.jpg-xs.png 300w ,https://nibeon.github.io/pro-linux/media/posts/3/responsive/image11.jpg-sm.png 480w ,https://nibeon.github.io/pro-linux/media/posts/3/responsive/image11.jpg-md.png 768w ,https://nibeon.github.io/pro-linux/media/posts/3/responsive/image11.jpg-lg.png 1024w ,https://nibeon.github.io/pro-linux/media/posts/3/responsive/image11.jpg-xl.png 1360w ,https://nibeon.github.io/pro-linux/media/posts/3/responsive/image11.jpg-2xl.png 1600w"  alt="инсталлятор из-под Windows" width="500" height="383"></figure>
-<p><em>(Установщик Q4OS из-под Window)</em></p>
-<p>Из других особенностей данного дистрибютива:</p>
+                <figure class="post__image post__image--center"><img loading="lazy"  src="https://nibeon.github.io/pro-linux/media/posts/6/1280px-Screenshot_of_Trinity_Desktop_Environment_TDE_R14.0.5_Development.png" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://nibeon.github.io/pro-linux/media/posts/6/responsive/1280px-Screenshot_of_Trinity_Desktop_Environment_TDE_R14.0.5_Development-xs.png 300w ,https://nibeon.github.io/pro-linux/media/posts/6/responsive/1280px-Screenshot_of_Trinity_Desktop_Environment_TDE_R14.0.5_Development-sm.png 480w ,https://nibeon.github.io/pro-linux/media/posts/6/responsive/1280px-Screenshot_of_Trinity_Desktop_Environment_TDE_R14.0.5_Development-md.png 749w ,https://nibeon.github.io/pro-linux/media/posts/6/responsive/1280px-Screenshot_of_Trinity_Desktop_Environment_TDE_R14.0.5_Development-xl.png 1200w"  alt="" width="1280" height="800"></figure>
+<p>The <strong><a href="http://www.trinitydesktop.org" target="_blank" rel="noopener noreferrer">Trinity Desktop Environment</a></strong> (<strong>TDE</strong>) is a complete software desktop environment<sup id="cite_ref-2" class="reference"></sup><sup id="cite_ref-3" class="reference"></sup> designed for Linux and Unix-like operating systems, intended for computer users preferring a traditional desktop model, and is free/libre software. Born as a fork of KDE 3.5 back in 2010, it was originally created by Timothy Pearson, who had coordinated Kubuntu remixes featuring KDE 3.5 after Kubuntu switched to KDE Plasma 4.<sup id="cite_ref-Article_about_Trinity_KDE_3_4-0" class="reference"></sup></p>
+<p>TDE is now a fully independent project with its own personality and development team, available for various Linux distros, BSD and DilOS. It is currently led by Slávek Banko.</p>
+<p>TDE releases aims to provide a stable and highly customizable desktop, continuing bug fixes, additional features, and compatibility with recent hardware. Trinity is packaged for Debian, Ubuntu, Devuan, Raspbian, Fedora, RedHat, Mageia, OpenSUSE, Slackware and various other distributions and architectures.<sup id="cite_ref-5" class="reference"></sup> It is also used as the default desktop environment of at least two Linux distributions, Q4OS and Exe GNU/Linux.<sup id="cite_ref-DWExe_6-0" class="reference"></sup><sup id="cite_ref-DWQ4OS_7-0" class="reference"></sup> Since version 3.5.12 (its second official release), it uses its own fork of Qt3, known as TQt3, so as to make it easier to eventually make TQt installable alongside later Qt releases.<sup id="cite_ref-8" class="reference"></sup></p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
+<figure class="gallery__item"><a href="https://nibeon.github.io/pro-linux/media/posts/6/gallery/tde1.png" data-size="1280x800"><img loading="lazy" src="https://nibeon.github.io/pro-linux/media/posts/6/gallery/tde1-thumbnail.png" alt="" width="768" height="480"></a></figure>
+<figure class="gallery__item"><a href="https://nibeon.github.io/pro-linux/media/posts/6/gallery/tde2.png" data-size="1280x800"><img loading="lazy" src="https://nibeon.github.io/pro-linux/media/posts/6/gallery/tde2-thumbnail.png" alt="" width="768" height="480"></a></figure>
+<figure class="gallery__item"><a href="https://nibeon.github.io/pro-linux/media/posts/6/gallery/tde3.png" data-size="1366x768"><img loading="lazy" src="https://nibeon.github.io/pro-linux/media/posts/6/gallery/tde3-thumbnail.png" alt="" width="768" height="432"></a></figure>
+<figure class="gallery__item"><a href="https://nibeon.github.io/pro-linux/media/posts/6/gallery/tde4.png" data-size="1274x783"><img loading="lazy" src="https://nibeon.github.io/pro-linux/media/posts/6/gallery/tde4-thumbnail.png" alt="" width="768" height="472"></a></figure>
+<figure class="gallery__item"><a href="https://nibeon.github.io/pro-linux/media/posts/6/gallery/tde5.png" data-size="1366x768"><img loading="lazy" src="https://nibeon.github.io/pro-linux/media/posts/6/gallery/tde5-thumbnail.png" alt="" width="768" height="432"></a></figure>
+<figure class="gallery__item"><a href="https://nibeon.github.io/pro-linux/media/posts/6/gallery/tde6.png" data-size="1400x1050"><img loading="lazy" src="https://nibeon.github.io/pro-linux/media/posts/6/gallery/tde6-thumbnail.png" alt="" width="768" height="576"></a></figure>
+</div></div>
+<p>Of all the TDE features, I would like to highlight the following:</p>
 <ul>
-<li>свой графический установщик для наиболее популярных приложений с оболочкой установки программ а-ля Windows</li>
-<li>возможность настроить внешний вид системы в стлиле WindowsXP</li>
-<li>своя утилита настройки рабочей среды с возможностью установки дополнительных рабочих сталов в один клик</li>
+<li>Several text editors, file manager, image viewers, office apps, archive manager.</li>
+<li>A comprehensive control center to configure the desktop to each user's preferences.</li>
+<li>Supports GTK2/Qt theme engine; tabs, check boxes, menu backgrounds.</li>
+<li>Optional Secure Attention Key to further secure the login and desktop lock dialogs.</li>
+<li>A built-in X11 compositor.</li>
+<li>A TDE-specific DBUS notification client for improved integration with common applications such as Firefox and NetworkManager (not dependant on HAL).</li>
+<li>Prevent OpenGL screen savers from locking the display.</li>
+<li>TQt interface (lays groundwork for selective Qt4 compatibility) </li>
 </ul>
-<figure class="post__image"><img loading="lazy"  src="https://nibeon.github.io/pro-linux/media/posts/3/image2.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://nibeon.github.io/pro-linux/media/posts/3/responsive/image2-xs.jpg 300w ,https://nibeon.github.io/pro-linux/media/posts/3/responsive/image2-sm.jpg 480w ,https://nibeon.github.io/pro-linux/media/posts/3/responsive/image2-md.jpg 768w ,https://nibeon.github.io/pro-linux/media/posts/3/responsive/image2-lg.jpg 1024w ,https://nibeon.github.io/pro-linux/media/posts/3/responsive/image2-xl.jpg 1360w ,https://nibeon.github.io/pro-linux/media/posts/3/responsive/image2-2xl.jpg 1600w"  alt="внешний вид Q4OS" width="1152" height="768"></figure>
-<p><em>(внешний вид Q4OS c установщиком в стиле установщика программ в Windows)</em></p>
-<h2>Общие впечатления</h2>
-<p>На данный момент я данный дистрибютив использую на старом ноутбуке (ноутбук старый настолько, что не поддерживает установку 64-битных систем),поэтому использую 32-битную версию Q4OS, причем до того, как этот ноутбук достался мне на нем стояла 32-битная "семерка" (из-за которой ноут сильно грелся, гудел и подтормаживал), а еще раньше - Windows XP (которая видимо изначально на нем стояла). А вот с Q4OS "семерочные" проблемы ноутбука исчезли и его стало вполне комфортно использовать. Думаю, что на более современном железе Q4OS вообще летать должна (но на основной комп пока не устанавливал, ибо вполне устраивает Sparky Linux, обзор которого был чуть ранее).</p>
+<p><em><strong>What I like about Trinity Desktop:</strong></em></p>
+<ul>
+<li>lightweight (at the moment I consider it one of the most lightweight graphical environments on a par with xftse) </li>
+<li>quite a lot of customizability of both functionality and appearance</li>
+<li>a sufficient amount of software, which is sharpened for this shell and is supported by the community</li>
+<li>classical look that can be customized in the style of old version of Windows (for example, Windows XP as in Q4OS) </li>
+<li>several community-supported builds of various Linux distributions on a given graphical environment</li>
+</ul>
+<p>So, I think Trinity Desktop is one of the most underrated Linux desktop environments. I would like it to get more attention.</p>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>О дистрибютиве Sparky Linux</title>
+        <title>Q4OS</title>
         <author>
             <name>nibeon</name>
         </author>
-        <link href="https://nibeon.github.io/pro-linux/o-distribyutive-sparky-linux/"/>
-        <id>https://nibeon.github.io/pro-linux/o-distribyutive-sparky-linux/</id>
-            <category term="Обзоры"/>
-            <category term="Дистрибютивы"/>
+        <link href="https://nibeon.github.io/pro-linux/q4os.html"/>
+        <id>https://nibeon.github.io/pro-linux/q4os.html</id>
+            <category term="distribution"/>
+            <category term="article"/>
+            <category term="Linux"/>
+            <category term="Lightweight"/>
 
-        <updated>2021-07-11T00:11:34+03:00</updated>
+        <updated>2022-04-27T01:13:52+03:00</updated>
             <summary>
                 <![CDATA[
-                     Sparky Linux - легковесный дистрибютив Linux, основанный на Debian, который я использую в последнее время на своем десктопе. Почему именно его? Во-первых, он легковесный и довольно шустро работает на моем далеко не новом компьютере (моему компу уже лет 15 если не больше), а во-вторых,&hellip;
+                    Q4OS is a light-weight Linux distribution, based on Debian, targeted as a replacement for operating systems that are no longer supported on outdated hardware. The distribution is known for being similar in&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <figure class="post__image"><img loading="lazy"  src="https://nibeon.github.io/pro-linux/media/posts/2/cropped-sparky-baner-tekst4a-2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://nibeon.github.io/pro-linux/media/posts/2/responsive/cropped-sparky-baner-tekst4a-2-xs.png 300w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/cropped-sparky-baner-tekst4a-2-sm.png 480w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/cropped-sparky-baner-tekst4a-2-md.png 768w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/cropped-sparky-baner-tekst4a-2-lg.png 1024w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/cropped-sparky-baner-tekst4a-2-xl.png 1360w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/cropped-sparky-baner-tekst4a-2-2xl.png 1600w"  alt="Логотип Sparky Linux" width="350" height="88"></figure>
-<p><a href="https://sparkylinux.org/" title="Оффициальный сайт Spatky Linux" target="_blank" rel="noopener noreferrer">Sparky Linux</a> - легковесный дистрибютив Linux, основанный на Debian, который я использую в последнее время на своем десктопе. Почему именно его? Во-первых, он легковесный и довольно шустро работает на моем далеко не новом компьютере (моему компу уже лет 15 если не больше), а во-вторых, у него в репозиториях есть та графическая среда (оболочка), которая мне в последнее время нравится чуть больше остальных - Trinity Desktop, которую можно установить с помощью графической утилиты APTus (разработанной специально под данный дистрибютив).</p>
-<h2>APTus</h2>
-<p>APTus, кстати, позволяет в пару кликов установить несколько популярных (и не очень) графических оболочек и оконных менеджеров (раздел "Приложения -&gt; Рабочие столы"), среди которых есть как всем известных GNOME, KDE и XFCE, так и достаточно экзотические оболочки типа Lumina Desktop, NsCDE или WindowMaker. Всего на выбор 26 "рабочих столов" (конечно, если чего-то не хватает, то это можно найти в репозиториях дебиана, например, с помощью Synaptic).</p>
-<figure class="post__image"><img loading="lazy"  src="https://nibeon.github.io/pro-linux/media/posts/2/aptus_1_desktops.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_1_desktops-xs.png 300w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_1_desktops-sm.png 480w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_1_desktops-md.png 768w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_1_desktops-lg.png 1024w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_1_desktops-xl.png 1360w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_1_desktops-2xl.png 1600w"  alt="APTus с выбором рабочих столов" width="1680" height="1050"></figure>
-<p><em>(APTus с выбором рабочих столов)</em></p>
-<p>Но установка дополнительных рабочих столов - не единственная функция APTus. Тут установка и другого популярного софта (раздел "Приложения"), и различные системные утилиты  (безопасное и полное обновление системы, поиск и удаление пакетов, очиста кеша и др.) и поиск. Иными словами APTus - это графический интерфейс для работы с пакетным менеджером apt (что видно из названия), который является аналогом подобных утилит в GNOME и KDE (в гноме, если не ошибаюсь подобная утилита называется "центр приложений GNOME"), и я ее использую в дополнение к Synaptic'у (отличие APTus от Synaptic - в графическом интерфейсе и в том, что в APTus приложения отображаются не в виде пакетов как Synaptic, а в виде программ, что будет привычнее для новичков в линуксе).</p>
-<figure class="post__image"><img loading="lazy"  src="https://nibeon.github.io/pro-linux/media/posts/2/aptus_2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_2-xs.png 300w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_2-sm.png 480w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_2-md.png 768w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_2-lg.png 1024w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_2-xl.png 1360w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_2-2xl.png 1600w"  alt="" width="1680" height="1050"></figure>
-<p><em>(обновление, удаление пакетов и т.д. в APTus)</em></p>
-<figure class="post__image"><img loading="lazy"  src="https://nibeon.github.io/pro-linux/media/posts/2/aptus_3.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_3-xs.png 300w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_3-sm.png 480w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_3-md.png 768w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_3-lg.png 1024w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_3-xl.png 1360w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/aptus_3-2xl.png 1600w"  alt="Страница установки программы в APTus" width="1680" height="1050"></figure>
-<p><em>(Страница установки редактора Bluefish в APTus)</em></p>
-<h2>Сборки дистрибютива</h2>
-<p>Если же говорить о том, чем еще примечателен Sparky Linux - так это вариантами самого дистрибютива, которых существует несколько интересных версий.</p>
-<p>Во-первых, это две ветки дистрибютива - Stable (иснованная на стабильной ветке Debian, где упор делается на стабильность системы) и Semi-Rolling (основанные на тестовых версиях дебиана с более свежим софтом, но предназначенных для более опытных пользователей). Я использую Semi-Rolling ветку ради более свежего софта (правда возможно из-за этого комп иногда подвисает, так что возможно перейду на стабильную ветку).</p>
-<p>Во-вторых, это несколько варианций самого дистрибютива с разными оболочками "из коробки":</p>
-<p>- сборки с конкретной оболочкой: <strong>LXQt</strong>, <strong>MATE</strong>, <strong>Xfce</strong>, <strong>KDE</strong> (да, сборки с GNOME нету, видимо из-за того, что GNOME на данный момент самая тяжеловесная оболочка, а Sparky позиционируется как леговесный, но если хочестя GNOME, то его можно будет поставить потом, с помощью например упомянутого уже APTus)</p>
-<p>- минимальные сборки: <strong>MinimalGUI</strong> (с оконным менеджером Openbox) и <strong>MinimalCLI </strong>(без графического интервейса, подойдет, например, для сервера). Для тех, кто не хочет ничего лишнего или тем, кто хочет поставить нужное графичесое окружение вручную без лишнего софта.</p>
-<p>-  special editions: <strong>GameOver</strong> (предназначенный для геймеров, с предустановленным набором игр и игрового софта типа Steam), <strong>Multimedia</strong> (с предустановленным софтом для работы со звуком, видео и графикой, использует оболочку Xfce) и <strong>Rescue</strong> (для специфических задач типа восстановления системы, бэкапов и прочего).</p>
-<p>Также Sparky Linux один из тех дистрибютивов линукса, которые помимо 64-битных версий, поддерживают и 32-битные сборки дистрибютива, что как по-мне является плюсом (так как многие дистрибютивы линукс, например Fedora, имеют только 64-битные образы).</p>
-<figure class="post__image"><img loading="lazy"  src="https://nibeon.github.io/pro-linux/media/posts/2/mydesktop.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://nibeon.github.io/pro-linux/media/posts/2/responsive/mydesktop-xs.png 300w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/mydesktop-sm.png 480w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/mydesktop-md.png 768w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/mydesktop-lg.png 1024w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/mydesktop-xl.png 1360w ,https://nibeon.github.io/pro-linux/media/posts/2/responsive/mydesktop-2xl.png 1600w"  alt="" width="1680" height="1050"></figure>
-<p><em>(Мой Trinity Desktop в Sparky Linux. Открыт файловый менеджер Krusader for TDE)</em></p>
+                <p><strong><a href="https://q4os.org" target="_blank" rel="noopener noreferrer">Q4OS</a></strong> is a light-weight Linux distribution, based on Debian, targeted as a replacement for operating systems that are no longer supported on outdated hardware.<sup id="cite_ref-2" class="reference"></sup> The distribution is known for being similar in appearance to Microsoft Windows operating systems with one of its pre-installed themes inspired by the look and feel of Windows 2000 and Windows XP.<sup id="cite_ref-3" class="reference"></sup><sup id="cite_ref-4" class="reference"></sup></p>
+<figure class="post__image"><img loading="lazy"  src="https://nibeon.github.io/pro-linux/media/posts/5/Q4OS_4.8_Gemini-2.png" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://nibeon.github.io/pro-linux/media/posts/5/responsive/Q4OS_4.8_Gemini-2-xs.png 300w ,https://nibeon.github.io/pro-linux/media/posts/5/responsive/Q4OS_4.8_Gemini-2-sm.png 480w ,https://nibeon.github.io/pro-linux/media/posts/5/responsive/Q4OS_4.8_Gemini-2-md.png 749w ,https://nibeon.github.io/pro-linux/media/posts/5/responsive/Q4OS_4.8_Gemini-2-xl.png 1200w"  alt="Q4OS 4.8 (Gemini) running the Trinity Desktop Environment version R14.0.11" width="1920" height="1080"></figure>
+<p>As far as I know, this distribution is being developed by developers from Germany, now in Czech Republic, but it has a multilingual interface support.</p>
+<p>The main feature of this distribution is the use of a lightweight graphical environment <a href="https://nibeon.github.io/pro-linux/trinity-desktop.html">Trinity Desktop</a><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);"> (TDE), which is a fork of </span><em style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">KDE 3</em><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">. A build is also provided for more powerful PCs based on KDE Plasma. Another interesting feature of this distribution is the ability to install from under Windows using an *.exe installer. Also recently there have been builds for Raspberry Pi, Pinbook and ARM-devices.</span></p>
+<p>As for me, I liked this distribution precisely because of the lightweight of the main build with <strong><em><a href="https://nibeon.github.io/pro-linux/trinity-desktop.html">Trinity Desktop</a> </em></strong>(which in turn is one of my favorite graphical environments). At the moment I use this distribution kit on my old laptop.</p>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>О проекте</title>
+        <title>About Linux distributives</title>
         <author>
             <name>nibeon</name>
         </author>
-        <link href="https://nibeon.github.io/pro-linux/o-proekte/"/>
-        <id>https://nibeon.github.io/pro-linux/o-proekte/</id>
+        <link href="https://nibeon.github.io/pro-linux/about-linux-distributives.html"/>
+        <id>https://nibeon.github.io/pro-linux/about-linux-distributives.html</id>
+            <category term="distribution"/>
+            <category term="article"/>
+            <category term="Linux"/>
 
-        <updated>2021-07-10T18:54:01+03:00</updated>
+        <updated>2022-04-27T01:15:14+03:00</updated>
             <summary>
                 <![CDATA[
-                    Данный сайт посвящен системам на основе линс, графическим оболочкам и оконным менеджерам для линукс (например, таким как Trinity Desktop Environment, LXQT, XFCE, IceWM и др.). Преимущественно будут освещаться те линуксовые вещи, которые нравятся автору сайтоа/блога (то есть мне). Это будут обзоры любимых дистрибютивов, любимых оболочек&hellip;
+                    <p>Since Linux itself is not an operating system, but is the core of the operating system, and therefore Linux is considered as a family of Unix-like operating systems, I will first give my classification of Linux distributions:</p>
+
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Данный сайт посвящен системам на основе линс, графическим оболочкам и оконным менеджерам для линукс (например, таким как Trinity Desktop Environment, LXQT, XFCE, IceWM и др.). </p>
-<p>Преимущественно будут освещаться те линуксовые вещи, которые нравятся автору сайтоа/блога (то есть мне). Это будут обзоры любимых дистрибютивов, любимых оболочек и оконных менеджеров, софта, который использую под линус, какие-то заметки и лайфхаки под линукс и многое другое.</p>
-<p>Также будут обзоры OpenSource и кросплатформенного софта, который я использую в Windows (например, такие редакторs кода как Kate или Geany или музыкальный секвенсер LMMS).</p>
-<p>Приятного времяпровождения на моем скромном ресурсе, уважаемый пользователь! </p>
+                <p>Since Linux itself is not an operating system, but is the core of the operating system, and therefore Linux is considered as a family of Unix-like operating systems, I will first give my classification of Linux distributions:</p>
+
+<p><strong><span style="text-decoration: underline;">1) The main families of distributions.</span></strong><br>(those distributions that most often mean Linux)<br>- <strong>Debian</strong> and its derivatives.<br>- <strong>Ubuntu</strong> and its derivatives.[1]<br>- <strong>RPM-based</strong> distributions.<br>- <strong>Slackware</strong> and its derivatives.<br>- <strong>Arch Linux</strong> and its derivatives.<br>- <strong>Gentoo</strong> and its derivatives.<br>- <span style="color: #02192b;"><strong>LFS-based</strong></span> distributions.[2]</p>
+<p><span style="text-decoration: underline;"><strong>2) Mini-Linux</strong></span><br>(those distributions that take up little space and are most often used in live-mode without installing to disk) </p>
+<p><span style="text-decoration: underline;"><strong>3) specialized distributions</strong></span><br>(mostly for specific tasks, such as Kali Linux, Clonezilla or Gparted Live)</p>
+<p>So, I will consider mainly the first 2 categories.<br><br>Linux distributions are also subdivided according to the graphical environment that comes out of the box (for example, Ubuntu uses GNOME, Kubuntu - KDE, Xubuntu -XFCE, etc.), but by and large these are conventions, because if you install KDE on Ubuntu (GNOME), and after that remove GNOME, then you essentially get Kubuntu.</p>
+<p>I will mainly consider those Linux distributions that I like and impress the most. Preference is given to those distributions that can be used as a full-alternative to Windows / MacOS. I will not consider mobile versions of Linux (Android, Tizen and others), because. here while there is a pony hegemony of the Android.</p>
+<p>---</p>
+<p>[1] despite the fact that Ubuntu was originally a debian-based distribution, it has long been an independent branch, and the ever more active introduction of snap packages (for example, in the latest version of Ubuntu, it will no longer be possible to install the Firefox from the deb package - it will be installed snap version).</p>
+<p>[2] LFS-based means that the distribution is not based on any of the above branches, but developed from scratch, but does not have numerous branches.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>About blog</title>
+        <author>
+            <name>nibeon</name>
+        </author>
+        <link href="https://nibeon.github.io/pro-linux/about-blog.html"/>
+        <id>https://nibeon.github.io/pro-linux/about-blog.html</id>
+            <category term="page"/>
+
+        <updated>2022-04-26T17:44:00+03:00</updated>
+            <summary>
+                <![CDATA[
+                    This blog is dedicated to my favorites alternative OS (mainly Linux distributives) and free software (mainly open source) and some others. As it will be:&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>This blog is dedicated to my favorites alternative OS (mainly Linux distributives) and free software (mainly open source) and some others.</p>
+<p>As it will be:</p>
+<p>1) each article is devoted to one of the topics that interest me:<br>- Linux distributions<br>- Linux graphical shells, window managers<br>- favorite free or open source software<br>- other alternative operating systems (eg Haiku, Hummingbird OS, BSD, etc)<br>2) will be given in the format of information from publicly available sources in conjunction with my thoughts on the topic.<br>3) the content of the site will be as much as possible (i.e. not the fact that often)</p>
 <p> </p>
             ]]>
         </content>
